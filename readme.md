@@ -1,7 +1,6 @@
 # jdf-jpg
 
-> A mozjpeg wrapper for JDF
-
+> A mozjpeg wrapper for JDF  see __https://github.com/mozilla/mozjpeg/__
 
 ## Install
 
@@ -20,7 +19,6 @@ execFile(mozjpeg, ['-outfile', 'output.jpg', 'input.jpg'], err => {
 	console.log('Image minified!');
 });
 ```
-
 
 ## CLI
 
