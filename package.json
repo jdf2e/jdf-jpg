@@ -1,7 +1,7 @@
 {
     "name": "jdf-jpg",
     "readmeFilename": "readme.md",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A mozjpeg wrapper for JDF",
     "license": "MIT",
     "repository": "jdf2e/jdf-jpg",
@@ -23,7 +23,8 @@
     "files": [
         "index.js",
         "cli.js",
-        "lib"
+        "lib",
+        "test"
     ],
     "keywords": [
         "jdf",
