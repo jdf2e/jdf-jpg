@@ -1,39 +1,42 @@
 {
-  "name": "jdf-jpg",
-  "version": "0.0.3",
-  "description": "A mozjpeg wrapper for JDF",
-  "license": "MIT",
-  "repository": "jdf2e/jdf-jpg",
-  "author": {
-    "name": "jdf2e",
-    "email": "wshxbqq@gmail.com",
-    "url": "github.com/jdf2e"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "bin": {
-    "jdf-jpg": "cli.js"
-  },
-  "scripts": {
-    "postinstall": "node lib/install.js"
-  },
-  "files": [
-    "index.js",
-    "cli.js",
-    "lib"
-  ],
-  "keywords": [
-    "jpeg",
-    "jpg",
-    "img",
-    "image",
-    "compress",
-    "minify",
-    "mozjpeg",
-    "optimize"
-  ],
-  "dependencies": {
-    "bin-wrapper": "^3.0.2"
-  }
+    "name": "jdf-jpg",
+    "version": "0.0.3",
+    "description": "A mozjpeg wrapper for JDF",
+    "license": "MIT",
+    "repository": "jdf2e/jdf-jpg",
+    "author": {
+        "name": "jdf2e",
+        "email": "wshxbqq@gmail.com",
+        "url": "github.com/jdf2e"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "bin": {
+        "jdf-jpg": "cli.js"
+    },
+    "scripts": {
+        "postinstall": "node lib/install.js",
+        "test": "node test/index.js"
+    },
+    "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+    ],
+    "keywords": [
+        "jdf",
+        "jdfx",
+        "jpeg",
+        "jpg",
+        "img",
+        "image",
+        "compress",
+        "minify",
+        "mozjpeg",
+        "optimize"
+    ],
+    "dependencies": {
+        "bin-wrapper": "^3.0.2"
+    }
 }
