@@ -6,6 +6,8 @@ var path = require("path");
 
 execFile(mozjpeg, ['-version'], function(error, stdout, stderr) {
     if (error) {
+    	console.log(stdout);
+    	console.log(stderr);
         throw error;
     }
 });
