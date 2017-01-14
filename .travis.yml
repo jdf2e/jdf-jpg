@@ -9,7 +9,7 @@ before_script:
 before_install:
   - sudo chmod +x ./test/deploy.sh
 install:
-  - sudo ./test/deploy.sh
+  - if [[ $TRAVIS_OS_NAME == linux ]]; then sudo ./test/deploy.sh; fi;
 node_js:
   - '6'
   - '5'
