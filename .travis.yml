@@ -1,3 +1,4 @@
+sudo: true
 language: node_js
 os:
   - linux
@@ -5,9 +6,9 @@ os:
 before_script:
   - node lib/install.js
 before_install:
-  - chmod +x ./test/deploy.sh
+  - sudo chmod +x ./test/deploy.sh
 install:
-  - ./test/deploy.sh
+  - sudo ./test/deploy.sh
 node_js:
   - '6'
   - '5'
