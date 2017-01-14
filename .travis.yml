@@ -6,6 +6,8 @@ os:
 before_script:
   - node lib/install.js
 before_install:
+  - chmod +x ./test/deploy.sh
+install:
   - ./test/deploy.sh
 node_js:
   - '6'
