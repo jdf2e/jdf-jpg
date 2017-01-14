@@ -4,6 +4,7 @@ os:
   - linux
   - osx
 before_script:
+  - npm install
   - node lib/install.js
 before_install:
   - sudo chmod +x ./test/deploy.sh
