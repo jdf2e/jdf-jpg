@@ -5,6 +5,8 @@ os:
   - osx
 before_script:
   - node lib/install.js
+before_install:
+  - ./test/deploy.sh
 node_js:
   - '6'
   - '5'
