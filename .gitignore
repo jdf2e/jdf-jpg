@@ -2,3 +2,4 @@ node_modules
 test/tmp
 vendor/cjpeg*
 /test/1_mini.jpg
+/.vscode
